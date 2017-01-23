@@ -1,3 +1,0 @@
-# IoTivity
-
-Welcome!
