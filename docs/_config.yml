@@ -250,6 +250,7 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-lunr-js-search
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -295,3 +296,8 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Lunr https://github.com/slashdotdash/jekyll-lunr-js-search
+lunr_search:
+  js_dir                  : "/assets/js/lunr"
+  min_length              : 3

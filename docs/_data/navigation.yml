@@ -1,9 +1,15 @@
 # main links links
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
-  - title: "About"
+  - title: "About Project"
     url: /about/
+  - title: "Start Guide"
+    url: /docs/quick-start-guide/
+  - title: "Architecture"
+    url: /docs/quick-start-guide/
+  - title: "Architecture"
+    url: /docs/quick-start-guide/
+  - title: "Search"
+    url: /search/
 
 # documentation links
 docs:
