@@ -4,7 +4,7 @@ title_separator          : "-"
 name                     : &name "Ondrej Tomcik"
 description              : &description "WiKi of open-source IoTivity platform."
 url                      : https://ondrejtomcik.github.io
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : 
 repository               : "ondrejtomcik/iotivity"
 words_per_minute         : 200
 comments:
