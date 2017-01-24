@@ -1,7 +1,6 @@
 <script src="{{ '/assets/js/main.min.js' | absolute_url }}"></script>
 
 <!-- If viewing the search page, include Lunr scripts -->
-{% if page.url == '/search/' %}
 	<!-- Search Results by jekyll-lunr-js-search -->
 	<script src="{{ '/assets/js/lunr/lunr.min.js' | absolute_url }}" type="text/javascript" charset="utf-8"></script>
 	<script src="{{ '/assets/js/lunr/mustache.min.js' | absolute_url }}" type="text/javascript" charset="utf-8"></script>
@@ -18,7 +17,6 @@
 	  });
 	  });
 	</script>
-{% endif %}
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
