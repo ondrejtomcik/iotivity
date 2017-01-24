@@ -256,6 +256,26 @@
 
     <script src="http://localhost:4000/iotivity/assets/js/main.min.js"></script>
 
+<!-- If viewing the search page, include Lunr scripts -->
+
+	<!-- Search Results by jekyll-lunr-js-search -->
+	<script src="http://localhost:4000/iotivity/assets/js/lunr/lunr.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://localhost:4000/iotivity/assets/js/lunr/mustache.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://localhost:4000/iotivity/assets/js/lunr/date.format.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://localhost:4000/iotivity/assets/js/lunr/URI.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://localhost:4000/iotivity/assets/js/lunr/jquery.lunr.search.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+	  $(function() {
+	  $('#search-query').lunrSearch({
+	    indexUrl: '/assets/js/lunr/index.json',     // URL of the `index.json` index data for your site
+	    results:  '#search-results',                // jQuery selector for the search results container
+	    entries:  '.entries',                       // jQuery selector for the element to contain the results list, must be a child of the results element above.
+	    template: '#search-results-template'        // jQuery selector for the Mustache.js template
+	  });
+	  });
+	</script>
+
+
 
 
 
